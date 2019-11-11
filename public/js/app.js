@@ -1,5 +1,3 @@
-
-
 // fetch - browsing based API 
 //forecast info in client side js
 
