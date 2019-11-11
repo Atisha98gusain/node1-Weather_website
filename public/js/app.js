@@ -1,4 +1,4 @@
-console.log("hey there client side js!");
+
 
 // fetch - browsing based API 
 //forecast info in client side js
