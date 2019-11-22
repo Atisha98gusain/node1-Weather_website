@@ -4,8 +4,8 @@ const hbs = require('hbs')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
-const app = express()     
-const port = process.env.PORT || 3000  //on heroku OR locally                                        //function to create new express app
+const app = express()                                                                  //function to create new express app
+const port = process.env.PORT || 3000                                                   //on heroku OR locally                                       
 
 //Define paths for express config
 const publicDirectoryPath = path.join(__dirname, '../public') 
@@ -88,5 +88,5 @@ app.get('/weather' , (req, res) => {
 
 
 app.listen(port, () => {
-    console.log('Server has started on' + port)
+    console.log('Server has started on ' +  port)
 })
