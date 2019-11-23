@@ -1,4 +1,4 @@
-const path = require('path')                                    //absolute path provided by core node modules
+const path = require('path')                                                       //absolute path provided by core node modules
 const express = require('express')  
 const hbs = require('hbs') 
 const geocode = require('./utils/geocode')
